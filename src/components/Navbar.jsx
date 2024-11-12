@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <div className='w-full py-3 sm:px-6 md:px-16 lg:px-24 px-5 bg-[#1d1d1d] flex items-center justify-between relative '>
-      <div className='w-14 h-14'>
-        <img src='/public/logo.webp' alt='Logo' className='w-full' />
+      <div className='w-14 h-14 rounded-full overflow-hidden'>
+        <img src='/public/logo.jpg' alt='Logo' className='w-full h-full' />
       </div>
      {isOpen ? ( <div className='items-center absolute z-50 top-20 left-0 space-y-5 w-full bg-gray-800 flex flex-col transition-all'>
         {navItems.map((item, index) => (

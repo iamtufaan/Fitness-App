@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-10">
         {/* Logo and Description */}
         <div className="flex flex-col gap-4 md:w-1/3">
-          <img src="/public/logo.webp" className="w-20" alt="Logo" />
+          <div className="w-14 h-14 rounded-full overflow-hidden">
+            <img src="/public/logo.jpg" alt="Logo" className="w-full h-full" />
+          </div>
           <p className="text-gray-300 text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
             veritatis nihil quam distinctio esse amet recusandae quod atque
@@ -32,10 +34,18 @@ const Footer = () => {
         <div className="flex flex-col items-start md:w-1/3">
           <h1 className="font-bold text-lg mb-4">Services</h1>
           <ul className=" text-gray-300">
-            <li className="hover:text-orange-500 py-2 transition">Strength Training</li>
-            <li className="hover:text-orange-500 py-2 transition">Yoga Session</li>
-            <li className="hover:text-orange-500 py-2 transition">Deadlift Challenge</li>
-            <li className="hover:text-orange-500 py-2 transition">Squats Challenge</li>
+            <li className="hover:text-orange-500 py-2 transition">
+              Strength Training
+            </li>
+            <li className="hover:text-orange-500 py-2 transition">
+              Yoga Session
+            </li>
+            <li className="hover:text-orange-500 py-2 transition">
+              Deadlift Challenge
+            </li>
+            <li className="hover:text-orange-500 py-2 transition">
+              Squats Challenge
+            </li>
           </ul>
         </div>
 
@@ -45,26 +55,22 @@ const Footer = () => {
           <ul className=" flex flex-col">
             <a
               className="hover:bg-slate-600 hover:px-4 py-2 rounded-md font-bold transition hover:text-white"
-              href="#home"
-            >
+              href="#home">
               Home
             </a>
             <a
               className="hover:bg-slate-600 hover:px-4 py-2 rounded-md font-bold transition hover:text-white"
-              href="#about"
-            >
+              href="#about">
               About
             </a>
             <a
               className="hover:bg-slate-600 hover:px-4 py-2 rounded-md font-bold transition hover:text-white"
-              href="#price"
-            >
+              href="#price">
               Pricing Plan
             </a>
             <a
               className="hover:bg-slate-600 hover:px-4 py-2 rounded-md font-bold transition hover:text-white"
-              href="#contact"
-            >
+              href="#contact">
               Contact
             </a>
           </ul>
