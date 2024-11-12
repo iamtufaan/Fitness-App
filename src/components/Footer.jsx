@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Logo and Description */}
         <div className="flex flex-col gap-4 md:w-1/3">
           <div className="w-14 h-14 rounded-full overflow-hidden">
-            <img src="/public/logo.jpg" alt="Logo" className="w-full h-full" />
+            <img src="https://i.pinimg.com/474x/fc/78/15/fc7815fd58a9d67d1bc5b858b4c7ccf6.jpg" alt="Logo" className="w-full h-full" />
           </div>
           <p className="text-gray-300 text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
