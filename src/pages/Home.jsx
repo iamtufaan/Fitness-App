@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className=' w-full min-h-screen '>
+    <div className='  max-w-[1250px] mx-auto min-h-screen '>
       <Hero/>
       <About/>
       <BMI/>
