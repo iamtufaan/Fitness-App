@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <div className='   min-h-screen text-white bg-gray-900  w-full'>
-      <Navbar/>
       <Home/>
     </div>
   )

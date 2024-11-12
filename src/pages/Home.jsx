@@ -9,10 +9,12 @@ import Exercises from '../components/Exercises'
 import Price from '../components/Price'
 import Info from '../components/Info'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
     <div className='  max-w-[1250px] mx-auto min-h-screen '>
+        <Navbar/>
       <Hero/>
       <About/>
       <BMI/>
