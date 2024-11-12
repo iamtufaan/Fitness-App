@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='w-full py-3 sm:px-6 md:px-16 lg:px-24 px-5 bg-[#1d1d1d] flex items-center justify-between relative '>
+    <div className='w-full py-3  px-5 bg-[#1d1d1d] flex items-center justify-between relative '>
       <div className='w-14 h-14 rounded-full overflow-hidden'>
         <img src='https://i.pinimg.com/474x/fc/78/15/fc7815fd58a9d67d1bc5b858b4c7ccf6.jpg' alt='Logo' className='w-full h-full' />
       </div>
